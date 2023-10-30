@@ -1,0 +1,1 @@
+export const createObserver = callback => new IntersectionObserver(callback);

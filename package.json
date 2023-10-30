@@ -1,15 +1,21 @@
 {
   "name": "minimal-lazy-table",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Minimal JavaScript lazy loading table",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:dev": "npx bun build ./src/main.js --outfile=dist/js/minify-lazy-table.min.js --watch",
+    "build:prod": "npx bun build --minify ./src/main.js --outfile=dist/js/minify-lazy-table.min.js",
+    "test": "bun test",
+    "test:coverage": "bun test --coverage"
   },
   "author": "Pavlo Ivanichenko <pasha.proton@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/pashaproton/minimal-lazy-table"
+  },
+  "devDependencies": {
+    "@happy-dom/global-registrator": "^12.10.3"
   }
 }
