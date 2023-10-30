@@ -1,7 +1,7 @@
 # minimal-lazy-table
 Minimal JavaScript lazy loading table
 
-This is very beginning of the project, there are a lot of changes a head.
+This is very beginning of the project, there are a lot of changes ahead.
 
 ### todo
 
