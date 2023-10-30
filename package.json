@@ -1,0 +1,15 @@
+{
+  "name": "minimal-lazy-table",
+  "version": "0.1.0",
+  "description": "Minimal JavaScript lazy loading table",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pavlo Ivanichenko <pasha.proton@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pashaproton/minimal-lazy-table"
+  }
+}

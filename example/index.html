@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Minimal Lazy Table | Example</title>
+</head>
+
+<body>
+  <h1>Simple example</h1>
+
+  <table class="lazy-table" data-limit="20" data-endpoint="https://dummyjson.com/products" data-offset-key="skip"
+    data-response-source="products" data-response-total="total">
+    <thead>
+      <tr>
+        <th data-key="id">ID</th>
+        <th data-key="title">Title</th>
+        <th data-key="description">Description</th>
+        <th data-key="price">Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr data-row></tr>
+    </tbody>
+    <tfoot data-loader>
+      <tr>
+        <td colspan="4" align="center">Loading...</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <script src="../src/index.js"></script>
+</body>
+
+</html>
